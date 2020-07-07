@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin"
+          fetch="https://github.com/friendlyarm"
+          revision="refs/heads/master" />
+  <remote name="k"
           fetch="."
           revision="refs/heads/master" />
 
-  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.4.y" />
+  <project path="kernel" name="kernel-rockchip" remote="k" revision="refs/heads/nanopi-r2-v5.4.y" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v2014.10" />
 
   <!-- img tools for rk3328 -->
@@ -14,7 +17,7 @@
 
   <!-- friendlyelec device configs -->
   <project path="device/friendlyelec" name="friendlywrt_device_rk3328" remote="origin" />
-  <project path="configs" name="friendlywrt_configs" remote="origin" />
+  <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v19.07.1" />
 
   <!-- friendlyelec scripts -->
   <project path="scripts" name="friendlywrt_scripts" remote="origin">
@@ -22,7 +25,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master" />
+  <project path="friendlywrt" name="friendlywrt" remote="k" revision="refs/heads/snapshot" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
