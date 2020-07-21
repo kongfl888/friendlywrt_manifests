@@ -3,6 +3,9 @@
   <remote name="origin"
           fetch="https://github.com/friendlyarm"
           revision="refs/heads/master" />
+  <remote name="lean"
+          fetch="https://github.com/coolsnowwolf"
+          revision="refs/heads/master" />
   <remote name="k"
           fetch="."
           revision="refs/heads/master" />
@@ -25,7 +28,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="friendlywrt" remote="k" revision="refs/heads/snapshot" />
+  <project path="friendlywrt" name="lede" remote="k" revision="refs/heads/nanopi-r2s" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
