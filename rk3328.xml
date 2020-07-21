@@ -25,7 +25,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="friendlywrt" remote="k" revision="refs/heads/snapshot" />
+  <project path="friendlywrt" name="friendlywrt" remote="k" revision="refs/heads/master-20200707" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
