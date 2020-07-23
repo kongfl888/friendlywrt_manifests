@@ -19,8 +19,8 @@
   </project>
 
   <!-- friendlyelec device configs -->
-  <project path="device/friendlyelec" name="friendlywrt_device_rk3328" remote="origin" />
-  <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v19.07.1" />
+  <project path="device/friendlyelec" name="friendlywrt_device_rk3328" remote="k" revision="refs/heads/lean" />
+  <project path="configs" name="friendlywrt_configs" remote="k" revision="refs/heads/lean" />
 
   <!-- friendlyelec scripts -->
   <project path="scripts" name="friendlywrt_scripts" remote="origin">
@@ -28,7 +28,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="lede" remote="k" revision="refs/heads/nanopi-r2s" />
+  <project path="friendlywrt" name="lede" remote="lean" revision="refs/heads/master" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
