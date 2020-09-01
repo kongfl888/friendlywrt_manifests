@@ -7,7 +7,7 @@
           fetch="."
           revision="refs/heads/master" />
 
-  <project path="kernel" name="kernel-rockchip" remote="k" revision="refs/tags/v5.4.60" />
+  <project path="kernel" name="kernel-rockchip" remote="k" revision="refs/tags/v5.4.61" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v2014.10" />
 
   <!-- img tools for rk3328 -->
